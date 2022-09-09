@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+
+  background: rgb(152, 53, 96);
+  background: radial-gradient(
+    circle,
+    rgba(152, 53, 96, 1) 17%,
+    rgba(148, 187, 233, 1) 68%
+  );
+  width: 100vw;
+  height: 100vh;
+}
+button {
+  margin-top: 50px;
+  padding: 5px;
+  color: antiquewhite;
+  background-color:gray;
+}
+.qoute {
+margin: auto;
+display: block;
+text-align: center;
+}
+p {
+  margin: auto;
+border-radius: 10px;
+  border: 2px solid gray;
+  width: 30vw;
+  background-color: aliceblue;
+  height: 30vh;
+}
